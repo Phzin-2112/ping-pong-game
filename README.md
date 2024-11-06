@@ -49,6 +49,6 @@ function update() {
 ##
 
 # Screenshot
-Aqui temos a captura de tela do projeto: :
+A seguir, temos uma imagem do projeto finalizado e em funcionamento: :
 
 ![screenshot](screenshot.jpg)
