@@ -51,4 +51,4 @@ function update() {
 # Screenshot
 A seguir, temos uma imagem do projeto finalizado e em funcionamento: :
 
-![screenshot](screenshot.jpg)
+![screenshot](js.apresentação.png)
