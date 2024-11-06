@@ -1,14 +1,10 @@
-# Projeto para Treino de JavaScript
+# treino de JS
 
-### Pong Game
+**Jogo de Pong**  
+Este tutorial é baseado nas aulas do (ASMR Programming). Vou ensinar como criar um jogo de Pong usando JavaScript. O projeto é uma versão de pingue-pongue que você pode jogar com o código em JavaScript! ❗️
 
-Tutorial realizado com base nas aulas do ([ASMR Programming](https://youtu.be/wQHVJjrwLhA)), vou mostrar como codificar um jogo de pong com javascript. O projeto para você jogar pingue-pongue com Javascript❗️
-
-### Torne o jogo mais fácil
-
-Para facilitar o jogo, podemos ajustar a velocidade da raquete do computador para torná-la menos responsiva ao movimento da bola. Você pode modificar a linha ```com.y += (ball.y - (com.y + com.height / 2)) * 0.1;``` na função ```update()``` para reduzir o fator ```0.1``` para um valor menor. Isso fará com que a raquete do computador se mova mais lentamente e tornará o jogo mais fácil de vencer. Aqui está um exemplo com um fator reduzido de ```0.05``` :
-
-
+**Facilitando o Jogo**  
+Se você quiser tornar o jogo mais fácil, uma boa opção é ajustar a velocidade da raquete do computador, tornando-a menos ágil no acompanhamento da bola. Para isso, basta modificar a linha `com.y += (ball.y - (com.y + com.height / 2)) * 0.1;` na função `update()`. Ao reduzir o valor de `0.1` para um número menor, a raquete do computador vai se mover mais devagar, tornando o jogo mais simples de ganhar. Veja um exemplo abaixo, com um fator reduzido para `0.05`:
 ```javascript
 // Atualize a lógica do jogo
 function update() {
